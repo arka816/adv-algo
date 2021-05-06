@@ -181,6 +181,7 @@ class TST:
             s = word[:i] + word[i+1:]
             if self.search(s):
                 matches.append(s)
+        # REPLACEMENT SEARCH ORDER 1
         return matches
                 
     def insertWords(self, vocabulary):
